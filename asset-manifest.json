@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fitsearch/static/css/main.5f361e03.chunk.css",
+    "main.js": "/fitsearch/static/js/main.82b03bcd.chunk.js",
+    "main.js.map": "/fitsearch/static/js/main.82b03bcd.chunk.js.map",
+    "runtime-main.js": "/fitsearch/static/js/runtime-main.010cfbc7.js",
+    "runtime-main.js.map": "/fitsearch/static/js/runtime-main.010cfbc7.js.map",
+    "static/js/2.149b7aa1.chunk.js": "/fitsearch/static/js/2.149b7aa1.chunk.js",
+    "static/js/2.149b7aa1.chunk.js.map": "/fitsearch/static/js/2.149b7aa1.chunk.js.map",
+    "index.html": "/fitsearch/index.html",
+    "precache-manifest.7b98b8e00f8b2cd118de269df972c447.js": "/fitsearch/precache-manifest.7b98b8e00f8b2cd118de269df972c447.js",
+    "service-worker.js": "/fitsearch/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/fitsearch/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.149b7aa1.chunk.js.LICENSE.txt": "/fitsearch/static/js/2.149b7aa1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/fitsearch/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.010cfbc7.js",
+    "static/js/2.149b7aa1.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.82b03bcd.chunk.js"
+  ]
+}
