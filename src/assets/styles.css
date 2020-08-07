@@ -1,0 +1,50 @@
+
+body {
+    background-color: #E5E5E5;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.bg-custom{
+    background-color: #FFD779;
+    padding:0;
+}
+
+.nav-item-custom{
+    font-weight: 700;
+    color: rgba(255, 255, 255, .7);
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.nav-item-custom:hover {
+    color: rgba(255, 255, 255, .7);
+   
+}
+
+.profile {
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    height: 100%;
+}
+
+.profile-thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #C4C4C4;
+    
+}
+
+.profile-thumbnail p {
+    all:unset;
+    font-weight: bold;
+}

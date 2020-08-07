@@ -1,17 +1,17 @@
 import React from 'react';
-import {Link, Route, Switch} from 'react-router-dom';
+import { Route, Switch, useLocation} from 'react-router-dom';
 
 import Home from '../../pages/Home';
 import Login from '../../pages/Login';
+
+import Navbar from '../Navbar';
 const Navigate = () => {
+    let currentPath = useLocation();
+    console.log(currentPath);
     return (
         <div>
-            <h1>ROOT DIRECTORY</h1>
-            <div>
-                <Link to="/" >Home</Link> { }
-                <Link to="/Login" >Login</Link>
-            </div>
-            <Switch>
+            {currentPath.pathname === "/Login" ? null : <Navbar />  }
+            <Switch>            
                 <Route component={Home} exact path="/" />
                 <Route component={Login} path="/Login" />
             </Switch>
