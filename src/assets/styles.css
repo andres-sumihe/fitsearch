@@ -2,6 +2,8 @@
 body {
     background-color: #E5E5E5;
 }
+
+/* Navbar */
 .logo {
     width: 50px;
     height: 50px;
@@ -47,4 +49,112 @@ body {
 .profile-thumbnail p {
     all:unset;
     font-weight: bold;
+}
+
+
+/* Home */
+
+.header-section {
+    padding-left:18.33% ;
+    padding-right:18.33% ;
+}
+.title {
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 80px;    
+    font-family: Bai Jamjuree;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Gradient Dark */
+    color: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+}
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    /* Dark Color */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+.button-wrapper {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn-custom-secondary {
+    background: #FF8F52;
+/* Shadow Blue · 16dp */
+    height: 48px;
+    width: 100px;
+    box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+    border-radius: 6px;
+
+    /* Text */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+
+    /* White Base */
+
+    color: #FFFFFF;
+}
+
+.btn-custom-secondary:hover {
+    box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.40), 0px 6px 12px rgba(54, 123, 245, 0.16);
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.btn-custom-outline-secondary {
+    border-color: #FF8F52;
+/* Shadow Blue · 16dp */
+    height: 48px;
+    width: 100px;
+    border-radius: 6px;
+
+    /* Text */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+
+    
+
+    color: #FF8F52;
+}
+
+.btn-custom-outline-secondary:hover {
+    box-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #FF8F52;
+}
+
+.image-wrapper {
+    margin:auto;
+    width: 100%;
+    background-color: royalblue;
 }

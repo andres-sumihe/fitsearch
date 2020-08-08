@@ -16,7 +16,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-custom" id="navcol1">
         <div className="container">
-          <a className="navbar-brand" href="/Home">
+          <a className="navbar-brand" href="/">
             <img src={Logo} className="logo" alt="Logo"/>
           </a>
 
