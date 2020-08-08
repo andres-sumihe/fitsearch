@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96abb45500fd3be4cb096370a0e73f3f",
+    "revision": "57973d5fc8e02f5883ca3782efcf2e20",
     "url": "/fitsearch/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitsearch/static/css/2.b07ff35c.chunk.css"
   },
   {
-    "revision": "93d3f7436c204737a8f9",
+    "revision": "6dea46114d9a0eebac55",
     "url": "/fitsearch/static/css/main.739b20a8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitsearch/static/js/2.1a144b02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93d3f7436c204737a8f9",
-    "url": "/fitsearch/static/js/main.16a0d21f.chunk.js"
+    "revision": "6dea46114d9a0eebac55",
+    "url": "/fitsearch/static/js/main.f0aebf19.chunk.js"
   },
   {
     "revision": "f928949b46eae598856e",
