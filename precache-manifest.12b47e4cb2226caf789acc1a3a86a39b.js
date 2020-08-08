@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69775d2f2c7ff8652ab41a89b8c35048",
+    "revision": "f275c4c401f43affa03f5da770e5890a",
     "url": "/fitsearch/index.html"
   },
   {
-    "revision": "3573ec9de36034813cb2",
+    "revision": "818c9bbb413b4a3d16c9",
     "url": "/fitsearch/static/css/2.b07ff35c.chunk.css"
   },
   {
-    "revision": "3f96f92c2b62400dfca7",
+    "revision": "1c6eaab53794fd6d747a",
     "url": "/fitsearch/static/css/main.739b20a8.chunk.css"
   },
   {
-    "revision": "3573ec9de36034813cb2",
-    "url": "/fitsearch/static/js/2.1a144b02.chunk.js"
+    "revision": "818c9bbb413b4a3d16c9",
+    "url": "/fitsearch/static/js/2.84231793.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/fitsearch/static/js/2.1a144b02.chunk.js.LICENSE.txt"
+    "url": "/fitsearch/static/js/2.84231793.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f96f92c2b62400dfca7",
-    "url": "/fitsearch/static/js/main.5263b1f7.chunk.js"
+    "revision": "1c6eaab53794fd6d747a",
+    "url": "/fitsearch/static/js/main.9764db0c.chunk.js"
   },
   {
     "revision": "f928949b46eae598856e",
