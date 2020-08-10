@@ -8,12 +8,13 @@ import Navbar from '../Navbar';
 const Navigate = () => {
     let currentPath = useLocation();
     console.log(currentPath);
+    console.log(process.env.PUBLIC_URL);
     return (
             <div>
                 {currentPath.pathname === "/Login" ? null : <Navbar />  }
                 <Switch>            
-                    <Route component={Home} exact path="/" />
-                    <Route component={Login} path="/Login" />
+                    <Route component={Home} exact path={"/"} />
+                    <Route component={Login} path={"/Login"} />
                 </Switch>
             </div>
     );

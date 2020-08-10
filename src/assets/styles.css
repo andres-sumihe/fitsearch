@@ -57,6 +57,11 @@ body {
 .header-section {
     padding-left:18.33% ;
     padding-right:18.33% ;
+    max-width: 100vw;
+}
+
+.row {
+    margin: unset
 }
 .title {
     /* position: absolute; */
@@ -154,7 +159,201 @@ body {
 }
 
 .image-wrapper {
+    border-width: 1px;
+    border-color: seagreen;
+    position: relative;
     margin:auto;
     width: 100%;
-    background-color: royalblue;
+    height: 400px;
 }
+
+.calendar-image {
+    position: absolute;
+    width: 161px;
+    height: 123.56px;
+    top: calc(30% - 123.56px/2 + 19.72px);
+    left: calc(50% - 360px);
+
+    filter: drop-shadow(0px 29.9535px 39.938px rgba(8, 35, 48, 0.06)), drop-shadow(0px 9.9845px 19.969px rgba(8, 35, 48, 0.1));
+}
+
+.sport-image {
+    position: absolute;
+    width: 480px;
+    height: 360px;
+    border-radius: 8px;
+    left: calc(50% - 480px / 2) ;
+    
+}
+
+.logo-image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: calc(50% + 360px / 2) ;
+    top: calc(20% - 123.56px/2 + 19.72px);
+}
+
+
+
+/* Login */
+
+
+.background-login {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card-custom {
+    margin: auto;
+    margin-top: 136px;
+    width: 500px;
+    height: 378px;
+    background-color: #ffffff;
+    background-blend-mode: darken;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 600px) {
+    .card-custom {
+      width: 80vw;
+    }
+  }
+
+.login-title {
+    /* UI - 30 Semi */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 33px;
+
+    /* Black */
+
+    color: #000000;
+}
+
+/* Form */
+
+.form-login {
+    margin: auto;
+    width: 65%;
+}
+.stylish {
+    width: 100%;
+    margin: 8px 0px 8px;
+}
+.stylish input{
+    padding: 0.6rem 1rem;
+    border: 0px none transparent;
+    border:1px solid #BDBDBD;
+    border-radius: 4px;
+    outline: none;
+    background-color:transparent;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .stylish:focus{
+    background-color:#f9f9f9;
+  }
+
+  input::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #BDBDBD;
+  }
+  
+  .form-container{
+    background-color:#fffFFF;
+    padding: 1rem;
+    display: inline-block;
+  }
+
+  .button-login {
+    margin: 15px 0px 9px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #FF8F52;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    width: 100%;
+    height: 36px;
+    box-shadow: 0px 16px 24px rgba(245, 146, 54, 0.16), 0px 6px 12px rgba(245, 130, 54, 0.16);
+    border-radius: 6px;
+  }
+  .button-signup {
+    margin: 11px 0px 9px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background: #3F3734;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    width: 100%;
+    height: 36px;
+    background-blend-mode: darken;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+
+  .button-signup:hover {
+    color: #FF8F52;
+  }
+
+.Not-Have-Account{
+    margin: 0px;
+    padding: unset;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    /* identical to box height */
+
+
+    /* Green/Primary */
+
+    color: #5DB075;
+}
+.show-password {
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #FF8F52;
+  }
+
+  .show-password:hover{
+      cursor: pointer;
+  }
+
+
+  
+ 
+  

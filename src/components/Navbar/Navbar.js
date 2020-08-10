@@ -16,7 +16,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-custom" id="navcol1">
         <div className="container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href={"/fitsearch/"}>
             <img src={Logo} className="logo" alt="Logo"/>
           </a>
 
@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                       </div>
                     </div>
                     <ul className="nav navbar-nav ml-auto">
-                        <li className="nav-item" role="presentation"><a className="nav-item-custom" href="/home">Merchant</a></li>
+                        <li className="nav-item" role="presentation"><a className="nav-item-custom" href={"/fitsearch/"}>Merchant</a></li>
                     </ul>
                 </div>
                 <div className="profile d-none d-sm-none d-md-none d-lg-flex">
