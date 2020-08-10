@@ -2,8 +2,18 @@ import React, { Component } from 'react';
 import Calendar_image from '../../assets/img/calendar.png'
 import Sport_image from '../../assets/img/BG.png'
 import Logo from '../../assets/img/logo_size.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch, faMapMarkerAlt, faBars } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
+constructor(props){
+  super(props);
+  this.state = {
+    location : 'Location',
+    category : 'All'
+  }
+}
+
   render() {
     return (
       <div className="col">
@@ -22,6 +32,47 @@ export default class Home extends Component {
                   <img className="sport-image img-fluid" src={Sport_image} alt="Sports"/>
               </div>
           </div>
+
+          <div className="search-section mx-auto">
+            <div className="category">
+              <div className="dropdown">
+                <span className="text-style-roboto" type="button" id="CategoryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {this.state.category}
+                </span>
+                <div className="dropdown-menu" aria-labelledby="CategoryDropdown">
+                  <p className="dropdown-item" onClick={()=> this.setState({category: 'Gym'})}>Gym</p>
+                  <p className="dropdown-item" onClick={()=> this.setState({category: 'Spa'})}>Spa</p>
+                  <p className="dropdown-item" onClick={()=> this.setState({category: 'Futsal'})}>Futsal</p>
+                </div>
+              </div>
+              <FontAwesomeIcon icon={faBars} className="map-icon"/>
+            </div>
+            <div className="search-bar text-style-roboto">
+              <form>
+                <input name="search" placeholder="Search By Merchant, Actifity, or Location" />
+                <FontAwesomeIcon icon={faSearch} className="search-icon"/>
+              </form>
+            </div>
+            <div className="location">
+                <div className="dropdown">
+                    <span className="text-style-roboto" type="button" id="LocationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      {this.state.location}
+                    </span>
+                    <div className="dropdown-menu" aria-labelledby="LocationDropdown">
+                      <p className="dropdown-item" onClick={()=> this.setState({location: 'Jakarta'})}>Jakarta</p>
+                      <p className="dropdown-item" onClick={()=> this.setState({location: 'Semarang'})}>Semarang</p>
+                      <p className="dropdown-item" onClick={()=> this.setState({location: 'Salatiga'})}>Salatiga</p>
+                    </div>
+                </div>
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="map-icon"/>
+            </div>
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     );
