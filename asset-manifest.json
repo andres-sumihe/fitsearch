@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/fitsearch/static/css/main.739b20a8.chunk.css",
-    "main.js": "/fitsearch/static/js/main.f0aebf19.chunk.js",
-    "main.js.map": "/fitsearch/static/js/main.f0aebf19.chunk.js.map",
+    "main.css": "/fitsearch/static/css/main.bff2c1de.chunk.css",
+    "main.js": "/fitsearch/static/js/main.b6bab5a7.chunk.js",
+    "main.js.map": "/fitsearch/static/js/main.b6bab5a7.chunk.js.map",
     "runtime-main.js": "/fitsearch/static/js/runtime-main.010cfbc7.js",
     "runtime-main.js.map": "/fitsearch/static/js/runtime-main.010cfbc7.js.map",
     "static/css/2.b07ff35c.chunk.css": "/fitsearch/static/css/2.b07ff35c.chunk.css",
-    "static/js/2.1a144b02.chunk.js": "/fitsearch/static/js/2.1a144b02.chunk.js",
-    "static/js/2.1a144b02.chunk.js.map": "/fitsearch/static/js/2.1a144b02.chunk.js.map",
+    "static/js/2.7cafa055.chunk.js": "/fitsearch/static/js/2.7cafa055.chunk.js",
+    "static/js/2.7cafa055.chunk.js.map": "/fitsearch/static/js/2.7cafa055.chunk.js.map",
     "index.html": "/fitsearch/index.html",
-    "precache-manifest.f61fb28dd083f7606ead150e28fc8235.js": "/fitsearch/precache-manifest.f61fb28dd083f7606ead150e28fc8235.js",
+    "precache-manifest.b08406ede9e7584dbb4d80ca554f822d.js": "/fitsearch/precache-manifest.b08406ede9e7584dbb4d80ca554f822d.js",
     "service-worker.js": "/fitsearch/service-worker.js",
     "static/css/2.b07ff35c.chunk.css.map": "/fitsearch/static/css/2.b07ff35c.chunk.css.map",
-    "static/css/main.739b20a8.chunk.css.map": "/fitsearch/static/css/main.739b20a8.chunk.css.map",
-    "static/js/2.1a144b02.chunk.js.LICENSE.txt": "/fitsearch/static/js/2.1a144b02.chunk.js.LICENSE.txt",
+    "static/css/main.bff2c1de.chunk.css.map": "/fitsearch/static/css/main.bff2c1de.chunk.css.map",
+    "static/js/2.7cafa055.chunk.js.LICENSE.txt": "/fitsearch/static/js/2.7cafa055.chunk.js.LICENSE.txt",
+    "static/media/BG.png": "/fitsearch/static/media/BG.8d451a84.png",
+    "static/media/Login.png": "/fitsearch/static/media/Login.0a26bcf1.png",
     "static/media/calendar.png": "/fitsearch/static/media/calendar.d64623a6.png",
     "static/media/logo_size.png": "/fitsearch/static/media/logo_size.7a10865d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.010cfbc7.js",
     "static/css/2.b07ff35c.chunk.css",
-    "static/js/2.1a144b02.chunk.js",
-    "static/css/main.739b20a8.chunk.css",
-    "static/js/main.f0aebf19.chunk.js"
+    "static/js/2.7cafa055.chunk.js",
+    "static/css/main.bff2c1de.chunk.css",
+    "static/js/main.b6bab5a7.chunk.js"
   ]
 }
