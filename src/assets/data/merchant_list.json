@@ -1,0 +1,290 @@
+[
+    {
+      "Nama": "Taman Sari Royal Heritage Spa",
+      "Alamat": "Sawah Besar",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5836c0c5a41e9a0e46937aa1/IMG_1495.jpg",
+      "path": "/merchant/taman-sari-royal-heritage-spa-sawah-besar-jakarta-pusat"
+    },
+    {
+      "Nama": "Beat Up Training Camp",
+      "Alamat": "Harapan Indah",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-589460c4bd3e7c44d4510506/69556_1411764225734964_1879145083_n.jpg",
+      "path": "/merchant/beat-up-training-camp-harapan-indah-medan-satria-bekasi"
+    },
+    {
+      "Nama": "White Wood Barbershop",
+      "Alamat": "Pulo Gadung",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57df69a5a41e9a6d360fa83d/IMG-20160916-WA0015.jpg",
+      "path": "/merchant/white-wood-barbershop-pulo-gadung-jakarta-timur"
+    },
+    {
+      "Nama": "Falah Swimming Course",
+      "Alamat": "Panglima Polim",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5b5593f1096abd74165df28f/WhatsApp%20Image%202018-07-20%20at%2012.01.43%20%281%29.jpeg",
+      "path": "/merchant/falah-swimming-course-panglima-polim-jakarta-selatan"
+    },
+    {
+      "Nama": "Dentalosophy",
+      "Alamat": "Senopati",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5ac6fef1bd3e7c21607eecb1/IMG_9519-min.JPG",
+      "path": "/merchant/dentalosophy-senopati-jakarta-selatan"
+    },
+    {
+      "Nama": "Legacy Muay Thai",
+      "Alamat": "Cibadak",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57eb6456a41e9a500706acc5/legacy-9.JPG",
+      "path": "/merchant/legacy-muay-thai-cibadak-tanah-sareal-bogor"
+    },
+    {
+      "Nama": "Tohang's Barber",
+      "Alamat": "Tebet",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58c657cbbd3e7c09c54beaf6/8.jpg",
+      "path": "/merchant/tohangs-barber-tebet-jakarta-selatan"
+    },
+    {
+      "Nama": "Friendly Gym",
+      "Alamat": "Sunter",
+      "Url": "https://s3-ap-southeast-1.amazonaws.com/api-production-bucket/company-57aa8bb6a41e9a79979374f0/friendly-1.JPG",
+      "path": "/merchant/friendly-gym-sunter-jakarta-utara"
+    },
+    {
+      "Nama": "Tohang's Barber",
+      "Alamat": "Senayan",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58c65e36bd3e7c09c54beb3d/3.jpg",
+      "path": "/merchant/tohangs-barber-senayan-jakarta-selatan"
+    },
+    {
+      "Nama": "Aldeoz Sport Center",
+      "Alamat": "Pancoran",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5c07aa3d096abd30212ff5a8/WhatsApp%20Image%202018-12-03%20at%2013.59.57-min.jpeg",
+      "path": "/merchant/aldeoz-sport-center-pancoran-jakarta-selatan"
+    },
+    {
+      "Nama": "The Brothers Training Camp",
+      "Alamat": "Tanjung Duren",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5c5d3f45096abd633a094c41/WhatsApp%20Image%202019-02-04%20at%2011.57.53%20AM%281%29-min.jpeg",
+      "path": "/merchant/the-brothers-training-camp-tanjung-duren-jakarta-barat"
+    },
+    {
+      "Nama": "Seventeen Gym",
+      "Alamat": "Jelambar",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57f75d3ea41e9a081ee7e389/25311173_1142957485834650_2139121366462928592_o.jpg",
+      "path": "/merchant/seventeen-gym-jelambar-jakarta-barat"
+    },
+    {
+      "Nama": "Double D Muay Thai",
+      "Alamat": "Jaka Setia",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58980b74bd3e7c44d451058e/IMG_5233.jpg",
+      "path": "/merchant/double-d-muay-thai-jaka-setia-bekasi-selatan"
+    },
+    {
+      "Nama": "Tatsujin MMA",
+      "Alamat": "Cilandak",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-59dc4011bd3e7c5710bf0435/image004%20%281%29.jpg",
+      "path": "/merchant/tatsujin-mma-cilandak-jakarta-selatan"
+    },
+    {
+      "Nama": "Asta Muay Thai",
+      "Alamat": "Baranangsiang",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57eb9028a41e9a500706acfd/asta-3.JPG",
+      "path": "/merchant/asta-muay-thai-baranangsiang-bogor-timur"
+    },
+    {
+      "Nama": "Friendly Gym Lubang Buaya",
+      "Alamat": "Cipayung",
+      "Url": "https://s3-ap-southeast-1.amazonaws.com/api-production-bucket/company-57aadc8ea41e9a7faf72694b/friendlylubang-1.JPG",
+      "path": "/merchant/friendly-gym-lubang-buaya-cipayung-jakarta-timur"
+    },
+    {
+      "Nama": "Gaia Studio",
+      "Alamat": "Kebon Jeruk",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58bfd321bd3e7c7c599ed1ae/IMG_1250.jpg",
+      "path": "/merchant/gaia-studio-kebon-jeruk-jakarta-barat"
+    },
+    {
+      "Nama": "Strike Training Camp",
+      "Alamat": "Pondok Kelapa",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5c454de1096abd0c498f5fcb/DSCF4221-min.JPG",
+      "path": "/merchant/strike-training-camp-pondok-kelapa-jakarta-timur"
+    },
+    {
+      "Nama": "Bao Shen Tang",
+      "Alamat": "Pluit",
+      "Url": "https://s3-ap-southeast-1.amazonaws.com/api-production-bucket/company-579ed742a41e9a0c143ea994/baoshengtang.JPG",
+      "path": "/merchant/bao-shen-tang-pluit-jakarta-utara"
+    },
+    {
+      "Nama": "Happy Nail ITC Permata Hijau",
+      "Alamat": "Kebayoran",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57cd5a49a41e9a52efe8122c/happynail-4.JPG",
+      "path": "/merchant/happy-nail-itc-permata-hijau-kebayoran-jakarta-selatan"
+    },
+    {
+      "Nama": "Shinto Reflexology",
+      "Alamat": "Tanjung Duren",
+      "Url": "https://s3-ap-southeast-1.amazonaws.com/api-production-bucket/company-579ee183a41e9a0c143ea9ae/shinto1.JPG",
+      "path": "/merchant/shinto-reflexology-tanjung-duren-jakarta-barat"
+    },
+    {
+      "Nama": "Eterna Derma Beauty Clinic",
+      "Alamat": "Kembangan",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58a989cabd3e7c033ae61d51/facial.JPG",
+      "path": "/merchant/eterna-derma-beauty-clinic-kembangan-jakarta-barat"
+    },
+    {
+      "Nama": "Zeus MMA",
+      "Alamat": "Pantai Indah Kapuk",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57ff0740a41e9a3d0d156daf/zeus-5.JPG",
+      "path": "/merchant/zeus-mma-pantai-indah-kapuk-jakarta-utara"
+    },
+    {
+      "Nama": "Victoria Workout Studio",
+      "Alamat": "Sukasari",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5c2f5be5096abd47467311c7/WhatsApp%20Image%202018-12-04%20at%2017.40.41.jpeg",
+      "path": "/merchant/victoria-workout-studio-sukasari-bogor-timur"
+    },
+    {
+      "Nama": "Anantya Riding Club",
+      "Alamat": "Bojong Nangka",
+      "Url": "https://s3-ap-southeast-1.amazonaws.com/api-production-bucket/company-579c529ba41e9a41ca56cca9/anantya1.JPG",
+      "path": "/merchant/anantya-riding-club-bojong-nangka-gunung-putri-bogor"
+    },
+    {
+      "Nama": "Rush Fit Bootcamp",
+      "Alamat": "Jaka Setia",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-580d9095a41e9a59caf8de5d/WhatsApp%20Image%202020-01-15%20at%2017.35.51%20%281%29.jpeg",
+      "path": "/merchant/rush-fit-bootcamp-jaka-setia-bekasi-selatan"
+    },
+    {
+      "Nama": "Bang Day Gym",
+      "Alamat": "Depok",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-58577a87a41e9a69f27a67dd/2016-10-19.jpg",
+      "path": "/merchant/bang-day-gym-depok-pancoran-mas"
+    },
+    {
+      "Nama": "Anubiz Gym Kelapa Dua",
+      "Alamat": "Kelapa Dua",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-585b7d46bd3e7c0562d4aa7b/Captureh.PNG",
+      "path": "/merchant/anubiz-gym-kelapa-dua-tangerang-selatan"
+    },
+    {
+      "Nama": "Gorilla Gym",
+      "Alamat": "Lebak Bulus",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-585c8cd6bd3e7c0ae9451c74/gorilla1.JPG",
+      "path": "/merchant/gorilla-gym-lebak-bulus-jakarta-selatan"
+    },
+    {
+      "Nama": "Bareskin Lippo Mall Puri Indah",
+      "Alamat": "Kembangan",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5b6be810096abd567974f928/WhatsApp%20Image%202018-10-01%20at%2009.48.31.jpeg",
+      "path": "/merchant/bareskin-lippo-mall-puri-indah-kembangan-jakarta-barat"
+    },
+    {
+      "Nama": "Club Serenia Mansion by Life Coach",
+      "Alamat": "Lebak Bulus",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5bee35be096abd713ce5df7f/WhatsApp%20Image%202018-11-16%20at%2009.40.31-min.jpeg",
+      "path": "/merchant/club-serenia-mansion-by-life-coach-lebak-bulus-jakarta-selatan"
+    },
+    {
+      "Nama": "Erdogan Muaythai MMA",
+      "Alamat": "Senen",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5bff8c80096abd30212fc8f6/WhatsApp%20Image%202018-11-29%20at%2011.10.33%20%281%29-min.jpeg",
+      "path": "/merchant/erdogan-muaythai-mma-senen-jakarta-pusat"
+    },
+    {
+      "Nama": "HiFit",
+      "Alamat": "Kebayoran Lama",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e2a9bf0096abd7e8228fcfc/WhatsApp%20Image%202020-01-24%20at%2012.48.34%20%281%29.jpeg",
+      "path": "/merchant/hifit-kebayoran-lama-jakarta-selatan"
+    },
+    {
+      "Nama": "Stellar Performance Fitness PIK",
+      "Alamat": "Pantai Indah Kapuk",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-587f385ebd3e7c3f3b8ca51b/IMG_0017.JPG",
+      "path": "/merchant/stellar-performance-fitness-pik-pantai-indah-kapuk-jakarta-utara"
+    },
+    {
+      "Nama": "TigerShark Fighting Academy",
+      "Alamat": "Pasar Minggu",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5878a4a4bd3e7c10373007a8/background.JPG",
+      "path": "/merchant/tigershark-fighting-academy-pasar-minggu-jakarta-selatan"
+    },
+    {
+      "Nama": "Tokyo Belle",
+      "Alamat": "Karawaci",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5899a6e5bd3e7c44d4510633/anner.JPG",
+      "path": "/merchant/tokyo-belle-karawaci-tangerang-selatan"
+    },
+    {
+      "Nama": "Joe Salon",
+      "Alamat": "Kebon Jeruk",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-59fae047bd3e7c401a64fedd/IMG_20170927_162029.jpg",
+      "path": "/merchant/joe-salon-kebon-jeruk-jakarta-barat"
+    },
+    {
+      "Nama": "Buffalo Camp",
+      "Alamat": "Pasar Baru",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5d67528a096abd1f3d6a2fc0/WhatsApp%20Image%202019-08-29%20at%2011.08.25-min.jpeg",
+      "path": "/merchant/buffalo-camp-pasar-baru-jakarta-pusat"
+    },
+    {
+      "Nama": "Studio Saharsa Cilandak",
+      "Alamat": "Cilandak",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5d883f96096abd534f66f854/WhatsApp%20Image%202019-09-23%20at%2010.37.31-min.jpeg",
+      "path": "/merchant/studio-saharsa-cilandak-jakarta-selatan"
+    },
+    {
+      "Nama": "De green salon",
+      "Alamat": "Komsen",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5d9aef73096abd13b90d4162/WhatsApp%20Image%202019-10-04%20at%2014.03.53-min.jpeg",
+      "path": "/merchant/de-green-salon-komsen-jati-asih-bekasi"
+    },
+    {
+      "Nama": "Time Aktive (Cluster The Icon)",
+      "Alamat": "Sampora",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e4b8df6096abd7e822952e8/WhatsApp%20Image%202020-02-17%20at%2009.45.03%20%281%29.jpeg",
+      "path": "/merchant/time-aktive-cluster-the-icon-sampora-cisauk-tangerang"
+    },
+    {
+      "Nama": "Time Aktive (Edu Center)",
+      "Alamat": "Sampora",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e55dce7096abd0b317bf6f6/WhatsApp%20Image%202020-02-17%20at%2009.45.05%20%281%29.jpeg",
+      "path": "/merchant/time-aktive-edu-center-sampora-cisauk-tangerang"
+    },
+    {
+      "Nama": "Snap Fitness Pantai Indah Kapuk",
+      "Alamat": "Pantai Indah Kapuk",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e55e6cf096abd0b317bf714/WhatsApp%20Image%202020-02-26%20at%2010.35.55.jpeg",
+      "path": "/merchant/snap-fitness-pantai-indah-kapuk-jakarta-utara"
+    },
+    {
+      "Nama": "Snap Fitness Kelapa Gading",
+      "Alamat": "Kelapa Gading",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e55eace096abd0b317bf79f/WhatsApp%20Image%202020-02-26%20at%2010.35.53%20%286%29.jpeg",
+      "path": "/merchant/snap-fitness-kelapa-gading-jakarta-utara"
+    },
+    {
+      "Nama": "Snap Fitness Terogong",
+      "Alamat": "Cilandak",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5e55f347096abd0b317bf8bc/WhatsApp%20Image%202020-02-26%20at%2010.35.53%20%285%29.jpeg",
+      "path": "/merchant/snap-fitness-terogong-cilandak-jakarta-selatan"
+    },
+    {
+      "Nama": "Kanara",
+      "Alamat": "Cireundeu",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5ebba593096abd61e7db094e/yoga%20kanara.jpg",
+      "path": "/merchant/kanara-cireundeu-tangerang-selatan"
+    },
+    {
+      "Nama": "Sabnani Football",
+      "Alamat": "Alam Sutera",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57a809a4a41e9a79979373f8/IMG_20180807_141540-min.jpg",
+      "path": "/merchant/sabnani-football-alam-sutera-tangerang-selatan"
+    },
+    {
+      "Nama": "Balance Pilates Studio",
+      "Alamat": "Meruya",
+      "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5844f37ca41e9a4113e89d83/balance1.JPG",
+      "path": "/merchant/balance-pilates-studio-meruya-jakarta-barat"
+    }
+   ]

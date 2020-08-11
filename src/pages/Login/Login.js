@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import Pattern from '../../assets/img/Login.png'
 import Data from '../../assets/data/data_user.json'
-
 
 export default class Login extends Component {
 
@@ -10,14 +10,17 @@ export default class Login extends Component {
     super(props);
     this.state = {
       username: '',
-      password: ''
-    
+      password: '',
+      id:''
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount(){
+  
+  }
   handleChange(event) {
     const target = event.target;
     const value = target.value;
@@ -36,7 +39,7 @@ export default class Login extends Component {
         return "Data Not Found";
       } else {
         window.location.href = "/fitsearch/";
-        // return item._id;
+        this.setState({id: item._id});
         return "Data Found";
       }
     })
@@ -67,7 +70,7 @@ export default class Login extends Component {
               <div className="col-md-6 col-lg-6"></div>
               <div className="col-md-6 col-lg-6 d-flex justify-content-center flex-column">
                 <div className="card card-custom" >
-                  <h1 className="login-title" >Sign In</h1>
+                  <h1 className="login-title" >Sign In {this.state.msg}</h1>
                   <div className="form-login" >
 
                     <form onSubmit={this.handleSubmit}>
@@ -80,9 +83,10 @@ export default class Login extends Component {
                         <span className="show-password" onClick={this.myFunction}>Show</span>
                       </div>
 
-                      <button className="btn button-login" onClick={()=>window.location.href ="#/Login"}>Sign In</button>
+                      <button className="btn button-login" type="submit">Sign In</button>
+                   
                       <p className="Not-Have-Account">Not Have Account Yet ?</p>
-                      <button className="btn button-signup" onClick={()=>window.location.href ="#/Login"}>Sign In</button>
+                      <button className="btn button-signup" onClick={() => window.location.href = "#/Register"}>Sign In</button>
 
                     </form>
                   </div>
