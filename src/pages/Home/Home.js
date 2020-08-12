@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faMapMarkerAlt, faBars } from '@fortawesome/free-solid-svg-icons';
 import MerchantCards from '../../components/Cards/MerchantCards';
 import Merchant_Data from '../../assets/data/merchant_list.json';
+import { getloginStatus } from '../../components/utills';
 
 
 export default class Home extends Component {
@@ -13,15 +14,22 @@ constructor(props){
   super(props);
   this.state = {
     location : 'Location',
-    category : 'All'
+    category : 'All',
+    login: false
   }
+}
+
+componentDidMount(){
+  const status = getloginStatus("status");
+  if(status === "Login") this.setState({login: true})
+  else this.setState({login: false})
 }
 
   render() {
     return (
       <div className="col">
         <div className="row">
-          <div className="header-section">
+        {!this.state.login ?  <div className="header-section">
               <h1 className="title">FitSearch, Lets Fit Together</h1>
               <p className="subtitle">We provide the best service for you who search for a good place for excercise activity, like Gym, Swimming Pool, Spa. </p>
               <div className="button-wrapper">
@@ -35,7 +43,7 @@ constructor(props){
                   <img className="sport-image img-fluid" src={Sport_image} alt="Sports"/>
               </div>
           </div>
-
+        :null}
           <div className="search-section mx-auto">
             <div className="category">
               <div className="dropdown">
@@ -85,9 +93,6 @@ constructor(props){
             
           </div>
 
-          
-          <br />
-          <br />
         </div>
       </div>
     );

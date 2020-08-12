@@ -1,15 +1,30 @@
 import React, { Component } from 'react';
 import Logo from '../../assets/img/logo_size.png';
+import { getloginStatus, nameSlicer, loadUser } from '../utills';
+import Data from "../../assets/data/data_user.json"
 
 export default class Navbar extends Component {
   constructor(props){
     super(props);
     this.state = {
       showProfile: true,
+      name: '',
+      login: false
     }
   }
 
   componentDidMount(){
+    const status = getloginStatus("status");
+    if(status === "Login") this.setState({login: true})
+    else this.setState({login: false})
+    Data.map(item => {
+      const temp = Object.values(item.account)
+      if(temp[0] === loadUser("username")){
+        const initialName = nameSlicer(item.name);
+        this.setState({name: initialName})
+      }
+    })
+
   }
   render() {
     console.log(window.innerWidth);
@@ -27,19 +42,22 @@ export default class Navbar extends Component {
 
                 <div className="collapse navbar-collapse" id="navcol-1">
                     <div className="profile d-flex d-lg-none">
-                      <div className="profile-thumbnail">
-                        <p>AS</p>
-                      </div>
+                    {!this.state.login ? <a className="login-link" href="#/Login">Sign in</a>
+                      :<a className="profile-thumbnail d-flex align-items-center" href="#/Dashboard">
+                      <p style={{textDecoration: "none"}}>{this.state.name}</p>
+                  </a>
+                    }
                     </div>
                     <ul className="nav navbar-nav ml-auto">
                         <li className="nav-item" role="presentation"><a className="nav-item-custom" href={"/fitsearch/"}>Merchant</a></li>
                     </ul>
                 </div>
                 <div className="profile d-none d-sm-none d-md-none d-lg-flex">
-                  <div className="profile-thumbnail d-flex align-items-center">
-                      <p>AS</p>
-                  </div>
-                </div>
+                {!this.state.login ? <a className="login-link" href="#/Login">Sign in</a>
+                  :<a className="profile-thumbnail d-flex align-items-center" href="#/Dashboard">
+                      <p style={{textDecoration: "none"}}>{this.state.name}</p>
+                  </a>
+                }</div>
                 
         </div>
       </nav>

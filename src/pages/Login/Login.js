@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import Pattern from '../../assets/img/Login.png'
 import Data from '../../assets/data/data_user.json'
+import { saveUser, setloginStatus } from '../../components/utills';
 
 export default class Login extends Component {
 
@@ -19,7 +20,7 @@ export default class Login extends Component {
   }
 
   componentDidMount(){
-  
+    
   }
   handleChange(event) {
     const target = event.target;
@@ -38,6 +39,8 @@ export default class Login extends Component {
       if(password !== item.account.password && username.toLowerCase() !== item.account.username){
         return "Data Not Found";
       } else {
+        saveUser(username, password);
+        setloginStatus("Login");
         window.location.href = "/fitsearch/";
         this.setState({id: item._id});
         return "Data Found";
@@ -86,7 +89,7 @@ export default class Login extends Component {
                       <button className="btn button-login" type="submit">Sign In</button>
                    
                       <p className="Not-Have-Account">Not Have Account Yet ?</p>
-                      <button className="btn button-signup" onClick={() => window.location.href = "#/Register"}>Sign In</button>
+                      <button className="btn button-signup" onClick={() => window.location.href = "#/Register"}>Sign Up</button>
 
                     </form>
                   </div>

@@ -3,6 +3,14 @@ body {
     background-color: #E5E5E5;
 }
 
+a {
+    all: unset;
+    cursor: pointer;
+}
+a:hover {
+    color:unset;
+}
+
 /* Navbar */
 .logo {
     width: 50px;
@@ -266,13 +274,44 @@ body {
 .merchant-wrapper {
     width: 85%;
     margin-top: 30px;
-    margin-bottom: 300px;
     padding: unset;
 }
 
 /* Login */
+.login-link {
+    text-decoration: none;
+    width: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
 
+    /* Black */
 
+    color: #000000;
+}
+
+.login-link:hover{
+    transition: all .2s ease;
+    color: #ffffff;
+}
+.agreement {
+    margin-left:10px ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* Gray/04 */
+
+    color: #666666;
+}
+
+.agreement span {
+    color: #454CF8;
+}
 .background-login {
     position: absolute;
     height: 100vh;
@@ -307,7 +346,11 @@ body {
 }
 
 /* Form */
-
+.form-signup {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
 .form-login {
     margin: auto;
     width: 65%;
@@ -483,29 +526,765 @@ body {
 .merchant-information {
     margin-top: 14px;
     width: 90%;
-    margin-left: 35px;
     background: #FFFFFF;
     /* 6 dp */
 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
 }
+.informations {
+    margin: 30px;
+}
 
+.informations h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.informations h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 12px;
+    margin-top: -10px;
+    color: #000000;
+}
+.informations p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
 .merchant-information img {
     width: 100%;
     height: 420px;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding-left: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.4px;
+
+    color: #BB8822;
+}
+.service-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.service-card {
+    background: #FAFAFA;
+    height: 120px;
+    padding: 10px;
+    margin: 8px 0px;
+    overflow: hidden;
+    /* 2 dp */
+
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+.service-image {
+    width: 30%;
+    border-radius: 4px; 
+    background-size: cover;
+}
+.service-information {
+    width: 70%;
+    padding-left: 10px;
+    position: relative;
+}
+.service-card-dashboard {
+    background: #FAFAFA;
+    height: 80px;
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0px;
+    overflow: hidden;
+    /* 2 dp */
+
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+.service-information-dashboard {
+    width: 70%;
+    padding-left: 10px;
+    position: relative;
+}
+.service-image-dashboard {
+    width: 30%;
+    border-radius: 4px; 
+    background-size: cover;
+}
+.service-date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #A70007;
+}
+
+.service-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #000000;
+}
+
+.service-desc{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    letter-spacing: 0.4px;
+
+    color: #000000;
+}
+.service-price {
+    position: absolute;
+    bottom: 0px;
+    right: 0px; 
+    border: 1px solid #E55615;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #C53805;
 }
 
 .maps {
     margin-top: 14px;
     width: 100%;
     background: #FFFFFF;
+    overflow: hidden;
     /* 6 dp */
 
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
 }
 
+.maps-wrapper {
+    height: 362px;
+}
+.maps-information {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-custom-maps{
+    background: #E56615;
+    height: 38px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 127px;
+    margin-top: 20px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #000000;
+
+}
+
+.fasility {
+    height: 52px;
+    width: 80%;
+    margin-top: 72px;
+}
+
+.fasility h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    /* or 114% */
+    letter-spacing: 0.4px;
+
+    color: #000000;
+}
+
+.fasility img {
+    margin: 0px 10px 0px;
+}
+
+.contact-phone {
+    transform: rotate(90deg);
+}
+
+.review {
+    width: 100%;
+    margin: 60px 0px 0px 20px ;
+    
+}
+
+.hensin {
+    flex-direction: column;
+}
+
+/* Modal */
+
+.custom-modal {
+    width: 320px;
+    height: 400px !important;
+    background: #FAFAFA;
+    border-radius: 4px;
+    
+    /* 6 dp */
+}
+.custom-modal-payment {
+    width: 320px;
+    height: 400px !important;
+    background: #FAFAFA;
+    border-radius: 4px;
+    
+    /* 6 dp */
+}
+.modal-image {
+    background-color: blue;
+    width: 92px !important; 
+    height: 67px;
+    background-size: cover;
+}
+
+.modal-information {
+    /* height: 400px; */
+    width: calc(320px - 16px - 92px) !important;
+    padding: 0px 8px;
+}
+
+.modal-info-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+}
+
+.modal-info-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    /* or 100% */
+
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+}
+
+.plusminus {
+    margin-top: -8px;
+}
+
+
+/* Payment */
+
+.logo-payment {
+    width: 90px;
+}
+
+div > h3 {
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    color: #000000;
+}
+
+
+
+
+/* dashboard */
+
+.section-1 {
+
+}
+
+.section-1 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    margin: 10px 0px 0px;
+
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+p.dashboard-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 2px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    /* or 150% */
+
+    letter-spacing: 0.1px;
+
+    color: #E55615;
+}
+
+hr {
+    margin: 0px 5px 15px;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+    background: #FAFAFA;
+    width: 90%;
+    height: 320px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    padding: 16px 18px 10px 22px;
+    /* 6 dp */
+
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+.profile-info h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.stylish-dashboard {
+    position: relative;
+    width: 100%;
+    margin: 8px 0px 8px;
+}
+.stylish-dashboard input{
+    padding: 0.6rem 1rem;
+    border: 2px solid #FF8F52;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    background-color:transparent;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .stylish-dashboard label {
+    position: absolute;
+    background-color: #FAFAFA;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    top: -8px;
+    left: 5px;
+    letter-spacing: 0.5px;
+
+    color: #E56615;
+
+  }
+
+  .radio label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 10px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .radio label input {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    /* identical to box height */
+    color: #000000;
+  }
+  
+  .stylish-dashboard:focus{
+    background-color:#f9f9f9;
+  }
+
+
+  .stylish-dashboard input::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+  }
+
+  /* Radio */
+
+  /* .design */
+.design {
+    width: 16px;
+    height: 16px;
+  
+    border: 1px solid var(--other);
+    border-radius: 100%;
+    margin-right: 16px;
+  
+    position: relative;
+  }
+  
+  .design::before,
+  .design::after {
+    content: "";
+    display: block;
+  
+    width: inherit;
+    height: inherit;
+  
+    border-radius: inherit;
+  
+    position: absolute;
+    transform: scale(0);
+    transform-origin: center center;
+  }
+  
+  .design:before {
+    background: var(--other);
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .design::after {
+    background: var(--primary);
+    opacity: .4;
+    transition: .6s;
+  }
+  
+  input:checked+.design::before {
+    opacity: 1;
+    transform: scale(.6);
+  }
+  
+  
+  /* other states */
+  input:hover+.design,
+  input:focus+.design {
+    border: 1px solid var(--primary);
+  }
+  
+  input:hover+.design:before,
+  input:focus+.design:before {
+    background: var(--primary);
+  }
+  
+  input:hover~.text {
+    color: var(--primary);
+  }
+  
+  input:focus+.design::after,
+  input:active+.design::after {
+    opacity: .1;
+    transform: scale(2.6);
+  }
+  
+.favorite-list {
+    background: #FFFFFF;
+    width: 90%;
+    margin: auto;
+    /* Gray / Divider */
+    padding: 16px 18px 10px 22px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.favorite-list h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.favorite-card {
+    background-image: url("./img/FavoriteCard.png");
+    background-size: auto;
+    width: 100%;
+    height:44px;
+    padding: 16px 12px 16px 12px;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 0.15px;
+
+    /* Light / On Surface */
+
+    color: #000000;
+    opacity: 0.6;
+}
+.section-3 {
+
+}
+.section-4 {
+
+}
+
+.calendar{
+    background: #FFFFFF;
+/* Gray / Divider */
+    width: 90%;
+    height: 320px;
+    margin-top: 16px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.react-calendar__navigation {
+    display: flex;
+    justify-content: space-around;
+}
+/* Hari */
+.react-calendar__month-view__weekdays {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.4px;
+
+/* Black / Medium Emphasis */
+
+color: rgba(0, 0, 0, 0.6);
+}
+.react-calendar__navigation {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.react-calendar__navigation button {
+    all: unset
+}
+.react-calendar__navigation__label {
+    text-align: center !important;
+    display: flex;
+}
+.react-calendar__navigation__label__labelText  {
+    font-family: Roboto;
+    margin: auto !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+button.react-calendar__tile  {
+    all:unset;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+.react-calendar__month-view__days {
+    margin-top: 16px;
+} 
+.react-calendar__month-view__days__day {
+    text-align: center;
+    margin-bottom: 10px !important;
+    width: 24px !important;
+} 
+.react-calendar__tile--now {
+    color: #E56615 !important;
+    font-weight: bold;
+    border-radius: 100% !important;
+    /* width: 24px !important; */
+    height: 100%;
+}
+
+
+.order-history{
+/* Gray / Divider */
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 4px;
+    padding: 16px 18px 10px 22px;
+}
+
+.order-history h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.15px;
+
+    /* Black / High Emphasis */
+
+    color: rgba(0, 0, 0, 0.87);
+}
+/* footer */
+
+.footer {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.footer-social {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 280px;
+}
+
+.footer-copyrights {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: 0.4px;
+
+    /* Gray · 80% */
+
+    color: #5E6366;
+}
 /* Responsive Rule Set */
   @media screen and (max-width: 600px) {
     .card-custom {
@@ -514,6 +1293,10 @@ body {
     .search-section{
         margin-top: 60px;
         width: 98%;
+    }
+
+    .hensin {
+        flex-direction: column-reverse;
     }
     
   }
