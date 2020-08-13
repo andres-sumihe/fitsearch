@@ -13,10 +13,13 @@ export default class Merchant extends Component {
     super(props);
     this.state = {
       pathName: '',
+      src:'',
       name: '',
       alamat: '',
       phone: '',
       maps: '',
+      desc:'',
+      place:'',
       service: [
          
       ]
@@ -37,7 +40,7 @@ export default class Merchant extends Component {
     Data.map((item) => {
       this.setState({pathName: this.props.location.pathname})
       if(merchantName === item.Nama){
-        this.setState({service: item.services});
+        this.setState({service: item.services, src: item.Url, name: item.Nama, place:item.Alamat, desc: item.desc});
       }
       return true;
     })
@@ -47,13 +50,13 @@ export default class Merchant extends Component {
       <div className="row" >
           <div className="col-lg-8 col-md-12">
             <div className="merchant-information mx-auto">
-              <img alt="bacground" src={"https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5836c0c5a41e9a0e46937aa1/IMG_1495.jpg"} className="img-fluid"/>
+              <img alt="bacground" src={this.state.src} className="img-fluid"/>
               <div className="informations">
                 <div className="">
-                  <h2>Taman Sari Royal Heritage Spa</h2>
-                  <h6>Sawah Besar</h6>
+                  <h2>{this.state.name}</h2>
+                  <h6>{this.state.place}</h6>
                 </div>
-                <p>Taman Sari Royal Heritage Spa memiliki beberapa perawatan spa yang dapat anda pilih berdasarkan kebutuhan tubuh anda. Dengan bantuan terapis kami yang sudah berpengalaman tinggi dan profesional, perawatan spa di Taman Sari Royal Heritage Spa dapat menghilangkan stress dan penat pada tubuh anda. Beberapa perawatan yang ditawarkan di gerai kami adalah Phyto-Whitening Therapy, Stress Reduction, dan Ratus Javanese. Cabang Taman Sari Royal Heritage Spa yang bekerja sama dengan Fitnesia ada di KH. Wahid Hasyim (Tanah Abang) dan cabang Pasar Baru Jakarta Pusat.</p>
+                <p>{this.state.desc}</p>
               </div>
               <br />
             </div>

@@ -71,17 +71,22 @@
       "fasility": "faWifi",
       "phone": "081234567890",
       "mail": "admin@website.com",
-      "maps": "",
-      "mapsLink": "",
+      "maps": "Ruko Asia Tropis AT17 no 11-12    17131  Harapan Indah  Medan Satria,  Bekasi,  Indonesia ",
+      "mapsLink": "http://maps.google.com/maps/dir//-6.1742003,106.9726227",
       "services": [
         {
-          "name": "",
-          "date": "",
-          "desc": "",
-          "price": "",
-          "serviceImage": "",
-          "path": ""
-        
+          "name": "Muay Thai",
+          "date": "Rabu 13:00 - 16:00",
+          "desc": "Latihan muay thai dipandu oleh trainer kami yang berpengalaman dan profesional. Cocok buat anda yang ingin mempelajari bela diri ataupun yang ingin be [..]",
+          "price": "Rp115.000",
+          "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-589460c4bd3e7c44d4510506/muaythai.JPG"
+        },
+        {
+          "name": "Boxing",
+          "date": "Selasa 13:00 - 15:00",
+          "desc": "Sesi latihan tinju yang intensif dan juga membakar banyak kalori ini membantu anda untuk belajar seni pertahanan diri.",
+          "price": "Rp75.000",
+          "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-589460c4bd3e7c44d4510506/boxing.JPG"
         }
       ]
     },
@@ -90,22 +95,30 @@
       "Alamat": "Pulo Gadung",
       "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57df69a5a41e9a6d360fa83d/IMG-20160916-WA0015.jpg",
       "path": "/merchant/white-wood-barbershop-pulo-gadung-jakarta-timur",
-      "desc": "Lorem ipsum dolor sit amet",
+      "desc": "Life is Better after Haircut",
       "fasility": "faWifi",
-      "phone": "081234567890",
-      "mail": "admin@website.com",
-      "maps": "",
-      "mapsLink": "",
+      "phone": "087880600260",
+      "mail": "whitewoodbarbershop@gmail.com",
+      "maps": "Jalan Pulo Nangka Tengah, No.6    13210  Pulo Gadung  Jakarta Timur,  Jakarta,  Indonesia",
+      "mapsLink": "http://maps.google.com/maps/dir//-6.1773,106.894032",
       "services": [
-        {
-          "name": "",
-          "date": "",
-          "desc": "",
-          "price": "",
-          "serviceImage": "",
-          "path": ""
         
-        }
+          {
+            "name": "Gold Cut",
+            "date": "Senin 10:00 - 12:00",
+            "desc": "Hair cut for gentleman by our professional and experienced stylist. \nLife is better after haircut. \nHair Wash + Massage + Hot Towel + Apply pomade",
+            "price": "Rp55.000",
+            "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57df69a5a41e9a6d360fa83d/whitewood-2.JPG"
+          },
+          {
+            "name": "Silver Cut",
+            "date": "Senin 10:00 - 12:00",
+            "desc": "Hair cut for gentleman by our professional and experienced stylist. \nLife is better after haircut. \nMassage + Hot Towel + Apply pomade",
+            "price": "Rp45.000",
+            "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-57df69a5a41e9a6d360fa83d/whitewood-2.JPG"
+          }
+        
+        
       ]
     },
     {
@@ -113,21 +126,26 @@
       "Alamat": "Panglima Polim",
       "Url": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5b5593f1096abd74165df28f/WhatsApp%20Image%202018-07-20%20at%2012.01.43%20%281%29.jpeg",
       "path": "/merchant/falah-swimming-course-panglima-polim-jakarta-selatan",
-      "desc": "Lorem ipsum dolor sit amet",
+      "desc": "Falah Swimming Course adalah tempat yang baik untuk belajar berenang yang diperuntukan untuk umum. Falah Swimming Course merupakan pilihan yang tepat untuk belajar renang dengan kolam renang yang nyaman serta dilatih oleh trainner yang profesional dan ramah sehingga membuat pelajaran renang anda menjadi fokus dan menyenangkan.",
       "fasility": "faWifi",
-      "phone": "081234567890",
-      "mail": "admin@website.com",
-      "maps": "",
-      "mapsLink": "",
+      "phone": "087877788599",
+      "mail": "falahswimmingcourse@gmail.com",
+      "maps": "Jl. Panglima Polim Raya No.125 D, RT.2/RW.1, Pulo, Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta",
+      "mapsLink": "http://maps.google.com/maps/dir//-6.2548733,106.7953001",
       "services": [
         {
-          "name": "",
-          "date": "",
-          "desc": "",
-          "price": "",
-          "serviceImage": "",
-          "path": ""
-        
+          "name": "Group",
+          "date": "Senin 10:00 - 12:00",
+          "desc": "Kelas Group renang yang dilatih oleh trainner profesional untuk 3-5 orang",
+          "price": "Rp200.000",
+          "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5b5593f1096abd74165df28f/WhatsApp%20Image%202018-07-20%20at%2012.01.43%20%281%29.jpeg"
+        },
+        {
+          "name": "Private",
+          "date": "Senin 12:00 - 14:00",
+          "desc": "Kelas Private renang yang dilatih oleh trainner profesional  untuk 1-2 orang",
+          "price": "Rp250.000",
+          "serviceImage": "https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5b5593f1096abd74165df28f/WhatsApp%20Image%202018-07-20%20at%2012.01.43%20%283%29.jpeg"
         }
       ]
     },

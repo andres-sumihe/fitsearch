@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import ServiceCard from '../../components/Cards/ServiceCard';
 import Data from '../../assets/data/merchant_list.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import $ from 'jquery';
 import { getServiceName, getMerchantName } from '../../components/utills';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -61,11 +59,13 @@ export default class Service extends Component {
                 totalPrice: total
               });
             }
+            return null;
           })
         }
+        return null;
       })
     
-      console.log(this.state.name)
+      // console.log(this.state.name)
   }
 
   _handleClick() {
@@ -82,20 +82,40 @@ export default class Service extends Component {
       [name]: value
     });
   }
-
+  handleClickPlus = () => {
+      this.setState(prevState => {
+        return {count: prevState.count + 1}
+      })
+      let str = this.state.price; 
+      let matches = str.match(/(\d+)/)
+      let cnt   = this.state.count
+      let total = parseInt(matches[0]) * (cnt+1)
+      this.setState({totalPrice: total})
+  }
+  handleClickMines = () => {
+      this.setState(prevState => {
+        return {count: prevState.count - 1}
+      })
+      // console.log(this.state.count)
+      let str = this.state.price; 
+      let matches = str.match(/(\d+)/)
+      let totalPrice   = this.state.totalPrice
+      let total = totalPrice - parseInt(matches[0])
+      this.setState({totalPrice: total})
+  }
   handleSubmit(event) {
-    const {note, totalPrice, count} = this.state;
+    // const {note, totalPrice, count} = this.state;
     window.location.href = "/Payment/"
     event.preventDefault();
   }
   render() {
     // console.log(this.props.location.state);
-    console.log(this.state.name);
+    // console.log(this.state.name);
     return (
       <div className="row" >
           <div className="col-lg-8 col-md-12">
             <div className="merchant-information mx-auto">
-              <img alt="bacground" src={"https://api-production-bucket.s3-ap-southeast-1.amazonaws.com/company-5836c0c5a41e9a0e46937aa1/IMG_1495.jpg"} className="img-fluid"/>
+              <img alt="bacground" src={this.state.src} className="img-fluid"/>
               <div className="informations">
                 <div className="">
                   <h2>Taman Sari Royal Heritage Spa</h2>
@@ -156,11 +176,11 @@ export default class Service extends Component {
                         <p className="modal-info-content" style={{color: "#FF7437"}}>
                           Rp{this.state.totalPrice}.000 
                             <span style={{color: "black", float: "right"}}>
-                              <img src={require("../../assets/img/PLUS.png")} className="plusminus" alt="Plus"/>
+                              <img src={require("../../assets/img/PLUS.png")} className="plusminus" alt="Plus" onClick={this.handleClickPlus}/>
                             </span> 
-                            <span style={{color: "black", float: "right"}}>2</span>
+                            <span style={{color: "black", float: "right"}}>{this.state.count}</span>
                             <span style={{color: "black", float: "right"}}>
-                              <img src={require("../../assets/img/MINUS.png")} className="plusminus" alt="Minus"/>
+                              <img src={require("../../assets/img/MINUS.png")} className="plusminus" alt="Minus" onClick={this.handleClickMines}/>
                             </span>
                         </p>
 
@@ -172,10 +192,11 @@ export default class Service extends Component {
                           <button className="btn button-login mx-auto" 
                                 style={{width: "95%", marginLeft: '10%'}} 
                                 data-toggle="modal" 
-                                onClick={()=> window.location.href = "fitsearch/#/Payment"}
+                                onClick={()=> window.location.href = "#/Payment"}
                                 data-dismiss="modal">
                                   BOOK NOW
                           </button>
+                          
                         </form>  
 
                         </div>

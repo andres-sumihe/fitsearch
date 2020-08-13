@@ -872,10 +872,10 @@ div > h3 {
 
 
 /* dashboard */
-
+/* 
 .section-1 {
 
-}
+} */
 
 .section-1 p {
     font-family: Roboto;
@@ -1128,12 +1128,12 @@ hr {
     color: #000000;
     opacity: 0.6;
 }
-.section-3 {
+/* .section-3 {
 
 }
 .section-4 {
 
-}
+} */
 
 .calendar{
     background: #FFFFFF;
@@ -1297,6 +1297,16 @@ button.react-calendar__tile  {
 
     .hensin {
         flex-direction: column-reverse;
+    }
+    
+  }
+  @media screen and (max-width: 579px) {
+    .profile-info {
+        width: 340px;
+    }
+
+    .favorite-list {
+        width: 340px;
     }
     
   }

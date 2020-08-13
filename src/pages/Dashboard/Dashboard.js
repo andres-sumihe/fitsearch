@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Data from '../../assets/data/data_user.json'
-import { loadUser, nameSlicer, saveUser, setloginStatus } from '../../components/utills';
+import { loadUser, saveUser, setloginStatus } from '../../components/utills';
 import Calendar from 'react-calendar';
 
 export default class Dashboard extends Component {
@@ -27,6 +27,7 @@ export default class Dashboard extends Component {
         if(temp[0] === loadUser("username")){
             this.setState({name: item.name, phone: item.phone, mail: item.email})
         }
+        return null;
         })
     }
 
@@ -38,8 +39,8 @@ export default class Dashboard extends Component {
     }
   render() {
     return (
-        <div className="d-flex flex-row"> 
-            <div className="section-1 col-lg-2 p-2">
+        <div className="d-flex flex-row flex-wrap"> 
+            <div className="section-1 col-lg-2 p-2 d-none d-lg-block">
                 <p>{this.state.name}</p>
                 <hr />
                 <div className="d-flex flex-row justify-content-around" style={{paddingLeft:"15px"}}>
@@ -49,7 +50,7 @@ export default class Dashboard extends Component {
                 <hr />
                 <button className="btn button-login mx-auto" style={{width: "100%", marginLeft: '10%'}} onClick={this.handleLogout}>LOG OUT</button>
             </div>
-            <div className="section-2 col-lg-3">
+            <div className="section-2 col-lg-3 col-md-6 col-sm-12 mx-auto">
                 <div className="profile-info">
               
                 <h4>Profile</h4>
@@ -68,7 +69,7 @@ export default class Dashboard extends Component {
                         <div className="radio">
                             <label>
                                 Male
-                                <input name="gender" type="radio" value="male" checked={true} />
+                                <input name="gender" type="radio" value="male" checked />
                             </label>
                         </div>
                         <div className="radio">
@@ -89,18 +90,18 @@ export default class Dashboard extends Component {
 
                 <div className="favorite-list">
                     <h4>Favorite</h4>
-                    <div class="favorite-card">
+                    <div className="favorite-card">
                         Friendly Gym
                         <img src={require("../../assets/img/love.png")} alt="Love" />
                     </div>
-                    <div class="favorite-card">
+                    <div className="favorite-card">
                         Falah Swimming Course
                         <img src={require("../../assets/img/love.png")} alt="Love" />
                     </div>
                     {/* <img src={require()} alt="pattern" width="90%"/> */}
                 </div>
             </div>
-            <div className="section-3 col-lg-3">
+            <div className="section-3 col-lg-3 col-md-6 col-sm-12 mx-auto">
                 <div className="change-password">
                 <div className="profile-info">
               
@@ -128,11 +129,11 @@ export default class Dashboard extends Component {
                 {/* </div> */}
                 </div>
             </div>
-            <div className="section-4 col-lg-4">
-                <div className="calendar">
+            <div className="section-4 col-lg-4 col-md-12 col-sm-12">
+                <div className="calendar mx-auto">
                     <Calendar prev2Label={null} next2Label={null} locale="en-EN" className="" />
                 </div>
-                <div className="order-history">
+                <div className="order-history mx-auto">
                         <h4>Order History</h4>
                         <div location={this.props.location} className="service-card-dashboard d-flex flex-row"> 
                         <div style={{backgroundImage: `url(${this.state.url})`}} className="service-image-dashboard" />
@@ -146,6 +147,7 @@ export default class Dashboard extends Component {
                     </div>
                 </div>
             </div>
+            <button className="btn button-login mx-auto d-block d-lg-none" style={{width: "80%"}} onClick={this.handleLogout}>LOG OUT</button>
         </div>
     );
   }

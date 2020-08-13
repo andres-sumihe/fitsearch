@@ -23,11 +23,13 @@ export default class Navbar extends Component {
         const initialName = nameSlicer(item.name);
         this.setState({name: initialName})
       }
+
+      return null;
     })
 
   }
   render() {
-    console.log(window.innerWidth);
+    // console.log(window.innerWidth);
     return (
       <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-custom" id="navcol1">
         <div className="container">

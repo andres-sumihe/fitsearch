@@ -17,8 +17,8 @@ import Dashboard from '../../pages/Dashboard/Dashboard';
 
 const Navigate = (props) => {
     let currentPath = useLocation();
-    console.log(currentPath);
-    console.log(process.env.PUBLIC_URL);
+    // console.log(currentPath);
+    // console.log(process.env.PUBLIC_URL);
     return (
         <div>
             {currentPath.pathname === "/Login" || currentPath.pathname === "/Register" ? null : <Navbar />  }
